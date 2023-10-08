@@ -4,10 +4,9 @@ import requests
 from . import models
 from . import forms
 
-api_key = 'OpenWeather Api'
 
 def index(request):
-    api_key = 'b0da1c89f6744d0ff405beaff0f3def8'
+    api_key = "OpenWeatherApp API"
     url = 'https://api.openweathermap.org/data/2.5/weather?q={}&appid=' + api_key
 
 
